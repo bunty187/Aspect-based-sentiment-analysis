@@ -2,6 +2,7 @@
 # !pip install tensorflow
 import streamlit as st
 import numpy as np
+np.version.version 
 import pandas as pd
 import tensorflow
 from tensorflow.keras.models import load_model
