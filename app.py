@@ -26,8 +26,8 @@ def predict_aspect_sentiment(user_input):
 
     # Make predictions
     predictions = loaded_model.predict(user_padded_sequence)
-    predicted_aspect_index = int(np.argmax(predictions[0]))
-    predicted_sentiment_index = int(np.argmax(predictions[0]))
+    predicted_aspect_index = int(np.argmax(predictions[0]).item())
+    predicted_sentiment_index = int(np.argmax(predictions[0]).item())
 
     # Map back to aspect and sentiment labels
     predicted_aspect = {v: k for k, v in aspect_mapping.items()}[predicted_aspect_index]
