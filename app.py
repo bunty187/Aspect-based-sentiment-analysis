@@ -95,13 +95,13 @@ def predict_aspect_sentiment(user_input):
     return predicted_aspect, predicted_sentiment
 
 # Streamlit app
-st.title("Aspect and Sentiment Prediction App")
+st.title("🏬 Aspect and Sentiment Prediction App 💻")
 
 st.write("Sentiment Analysis on Laptop and Restaurant Reviews")
 
 # User input
-st.header("Enter Your Text Here:")
-user_input = st.text_area("Text:")
+st.write("Enter the reviews of laptop or restaurant:")
+user_input = st.text_area("Text")
 
 # Predict and display results
 if st.button("Predict"):
