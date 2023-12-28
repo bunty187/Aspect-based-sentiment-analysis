@@ -40,7 +40,7 @@ def predict_aspect_sentiment(user_input):
 # Streamlit app
 st.header("Aspect and Sentiment Prediction App")
 
-st.subheader("🏬 Sentiment Analysis on Laptop and Restaurant Reviews 💻")
+st.write("🏬 Sentiment Analysis on Laptop and Restaurant Reviews 💻")
 
 # User input
 st.markdown("Enter the reviews of laptop or restaurant:")
