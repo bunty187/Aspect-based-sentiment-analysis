@@ -95,9 +95,9 @@ def predict_aspect_sentiment(user_input):
     return predicted_aspect, predicted_sentiment
 
 # Streamlit app
-st.title("🏬 Aspect and Sentiment Prediction App 💻")
+st.header("Aspect and Sentiment Prediction App")
 
-st.write("Sentiment Analysis on Laptop and Restaurant Reviews")
+st.write("🏬 Sentiment Analysis on Laptop and Restaurant Reviews💻")
 
 # User input
 st.write("Enter the reviews of laptop or restaurant:")
