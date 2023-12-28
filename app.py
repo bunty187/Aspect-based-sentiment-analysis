@@ -44,7 +44,7 @@ st.write("🏬 Sentiment Analysis on Laptop and Restaurant Reviews 💻")
 
 # User input
 st.markdown("Enter the reviews of laptop or restaurant:")
-user_input = st.text_area("Text")
+user_input = st.text_input("Text")
 
 # Predict and display results
 if st.button("Predict"):
